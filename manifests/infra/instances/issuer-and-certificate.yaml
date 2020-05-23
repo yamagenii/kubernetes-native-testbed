@@ -18,7 +18,7 @@ spec:
 apiVersion: cert-manager.io/v1alpha2
 kind: Certificate
 metadata:
-  name: testbed.__LOADBALANCER_IP_ADDRESS__.nip.io
+  name: testbed.104.198.120.237.nip.io
   namespace: infra
 spec:
   secretName: testbed-cert
@@ -26,17 +26,17 @@ spec:
     name: letsencrypt-issuer
     kind: ClusterIssuer
   dnsNames:
-  - testbed.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - argocd.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - tekton.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - harbor.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - notary.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - dashboard.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - rook.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - prometheus.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - grafana.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - alertmanager.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - weave-scope.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - yugabyte.__LOADBALANCER_IP_ADDRESS__.nip.io
-  - minio.__LOADBALANCER_IP_ADDRESS__.nip.io
-  commonName: testbed.__LOADBALANCER_IP_ADDRESS__.nip.io
+  - testbed.104.198.120.237.nip.io
+  - argocd.104.198.120.237.nip.io
+  - tekton.104.198.120.237.nip.io
+  - harbor.104.198.120.237.nip.io
+  - notary.104.198.120.237.nip.io
+  - dashboard.104.198.120.237.nip.io
+  - rook.104.198.120.237.nip.io
+  - prometheus.104.198.120.237.nip.io
+  - grafana.104.198.120.237.nip.io
+  - alertmanager.104.198.120.237.nip.io
+  - weave-scope.104.198.120.237.nip.io
+  - yugabyte.104.198.120.237.nip.io
+  - minio.104.198.120.237.nip.io
+  commonName: testbed.104.198.120.237.nip.io
